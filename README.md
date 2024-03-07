@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Getting Started with App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of simple registration page. All the fields are mandatory and have validations. Once the user clicks on submit if there are no errors an alert is popped up telling the user has been registered.
 
-## Available Scripts
+## Authors
 
-In the project directory, you can run:
+- [Sai Vaishnavi Jupudi]- _(Developer)_
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To have a local copy of this tutorial up and running on your local machine, you will first need to install the following software / libraries / plug-ins
+​
+```
+Node Package Manager (NPM)
+A browser (ex:chrome)
+A code editor(ex: vscode)
+Git Bash
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installing
 
-### `npm test`
+Follow the below steps to install and run the application in the local environment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/vaishnavijupudi/simple-registration-form.git
+cd simple-registration-form
+npm install
+npm start
+```
 
-### `npm run build`
+```
+Check the URL: http://localhost:3000 for the demo
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) - Node Package manager
+- [ReactJs](https://reactjs.org/docs/create-a-new-react-app.html) - The frontend framework
+- [MaterialUI](https://mui.com/material-ui/) - The styling framework used.
+- [Api](https://fullstack-test-navy.vercel.app/api/users/create) - The api for data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Registration Form
+- The page consists of simple responsive form  with a header
+- Each field is validated 
+- The page on submit when all the validations succeed it calls an api which shows a alert that user registration is successful
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
